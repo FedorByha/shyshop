@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Benzin; /* Гарнитура шрифта */
+    src: url(benzin-extrabold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+
+body {
+    background: linear-gradient(to right, rgb(144, 154, 159), rgb(235, 245, 250)) ;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.nav-item {
+    font-size: 22px;
+    font-family: Benzin;
+    display: inline;
+    margin-right: 25px;
+}
+
+.nav-item-link {
+    color:rgb(52, 52, 52);
+    text-decoration: none;  
+    user-select: none;
+    transition: 0.3s;
+}
+
+.header-nav-hr {
+    color:aliceblue;
+    width:95%;
+    height:3px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.nav {
+    height:5%;
+    margin: 5px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+a:hover {
+    color:rgb(40, 40, 40);
+}
+
+.unl-item-img {
+    width:50px
+}
